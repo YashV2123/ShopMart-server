@@ -40,7 +40,10 @@ const SettingSchema = new mongoose.Schema({
     privacyPolicy: {
         type: String
     },
-    termsAndCondition: {
+    termsAndConditions: {
+        type: String
+    },
+    returnPolicy: {
         type: String
     },
     status: {
